@@ -6,4 +6,5 @@ Implementação dos Métodos Numéricos:
  Método da Bissecção
  Método de Falsa-posição
  Método de Newton-Raphson
+
 Aplicação Real: 
