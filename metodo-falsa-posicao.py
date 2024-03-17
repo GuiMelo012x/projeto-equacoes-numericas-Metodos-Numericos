@@ -29,9 +29,9 @@ def metodo_fp(func, a, b, erro_aceitavel):
             i = i + 1
 
 
-    print(f'O erro restante é {erro}, após {i} iterações')
-    print(f'A raiz pode ser encontrada aproximadamente em {c_prox}')
-    print(f'O limite inferior do intervalo "a" é {a} e o limite superior do intervalo "b" é {b}')
+    print(f'O erro restante é {erro:.2f}, após {i} iterações')
+    print(f'A raiz pode ser encontrada aproximadamente em {c_prox:.2f}')
+    print(f'O limite inferior do intervalo "a" é {a:.2f} e o limite superior do intervalo "b" é {b:.2f}')
 
 # Insira a sua função aqui:
 metodo_fp("(x**3 - (3*x)**2 - (4*x) + 12)",0,2,0.001)
