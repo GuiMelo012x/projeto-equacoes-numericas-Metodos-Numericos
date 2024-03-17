@@ -33,4 +33,5 @@ def newton_raphson(func, funcderiv, x, n):
 
 # Testando a função
 newton_raphson("x**2 - 2", "2*x", 2, 10)  # Encontra a raiz da função x^2 - 2, começando em x = 2, com no máximo 10 iterações.
+print("==========================================//============================================")
 newton_raphson("x**2 - 2", "2*x", -10, 10)  # Encontra a raiz da função x^2 - 2, começando em x = -10, com no máximo 10 iterações.
