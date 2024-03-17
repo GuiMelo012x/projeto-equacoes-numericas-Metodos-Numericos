@@ -1,5 +1,3 @@
-# A = limite inferior da raiz, B = limite inferior da raiz
-#error = nivel aceitavel de erro
 
 def metodo_bisseccao(func, a, b, erro_aceitavel):  
     """
@@ -54,4 +52,5 @@ def metodo_bisseccao(func, a, b, erro_aceitavel):
     
 # Testando a função
 metodo_bisseccao("(4*x ** 3) + 3*x - 3", 0, 1, 0.05)
-
+print("==========================================//============================================")
+metodo_bisseccao("(4*x ** 3) + 3*x - 3", 0, -1, 0.05)
