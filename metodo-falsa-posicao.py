@@ -50,5 +50,3 @@ erro --> calcula o erro entre o c e o c_anterior. O erro é a diferença entre a
 significa que encontramos uma boa aproximação para a raiz.
 
 '''
-
-
