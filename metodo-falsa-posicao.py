@@ -34,8 +34,9 @@ def metodo_fp(func, a, b, erro_aceitavel):
     print(f'O limite inferior do intervalo "a" é {a} e o limite superior do intervalo "b" é {b}')
 
 # Insira a sua função aqui:
-metodo_fp("(3*x ** 2) - 4",0,2,0.001)
+metodo_fp("(x**3 - (3*x)**2 - (4*x) + 12)",0,2,0.001)
 
+# f(x)= x³ - 3x² − 4x+12
 
 '''
 
