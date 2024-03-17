@@ -32,6 +32,8 @@ def newton_raphson(func, funcderiv, x, n):
     print(f"A raiz foi encontrada em {x:.2f}, depois de {n} iterações")
 
 # Testando a função
+
 newton_raphson("x**3 - (3*x)**2 - (4*x) + 12", "3*x**2 - 6*x -4", 2, 10)  # Encontra a raiz da função x^2 - 2, começando em x = 2, com no máximo 10 iterações.
+
 
 # f(x)= x³ - 3x² − 4x+12
