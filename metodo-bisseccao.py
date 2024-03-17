@@ -51,6 +51,6 @@ def metodo_bisseccao(func, a, b, erro_aceitavel):
     
     
 # Testando a função
-metodo_bisseccao("(4*x ** 3) + 3*x - 3", 0, 1, 0.05)
+metodo_bisseccao("x**3 - 3*x**2 - 4*x + 12", -10, 10, 0.05)
 print("==========================================//============================================")
-metodo_bisseccao("(4*x ** 3) + 3*x - 3", 0, -1, 0.05)
+metodo_bisseccao("x**3 - 3*x**2 - 4*x + 12", -5, 5, 0.05)

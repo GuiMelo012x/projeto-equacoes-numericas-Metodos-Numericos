@@ -38,6 +38,7 @@ metodo_fp("(x**3 - (3*x)**2 - (4*x) + 12)",0,2,0.001)
 
 # f(x)= x³ - 3x² − 4x+12
 
+
 '''
 
 func = função dada pelo usuário como uma String, é convertida em uma função matemática na linha 3 com o "eval". 
